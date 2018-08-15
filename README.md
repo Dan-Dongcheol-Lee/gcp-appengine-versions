@@ -2,7 +2,7 @@
 
 Cleaning up old versions of App Engine services in GCP projects is a tedious task if there are many micro services running and published in a gcp project in a day.
 
-This shell script runs to automatically clean up old versions of them but keeping the certain number of recent versions of them, which is configurable in the script. (3 by defaults)
+This shell script runs to clean up old versions of App Engine services but keeping the certain number of recent versions of them, which is configurable in the script. (3 for each service by default)
 
 This can also be done by scheduled Jenkins's job if there is a gcp service account credentials available in your Jenkins.
 
