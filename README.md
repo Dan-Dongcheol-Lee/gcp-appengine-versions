@@ -9,7 +9,8 @@ This can also be done by scheduled Jenkins's job if there is a gcp service accou
 ### Setup gcp project
 
 Install gcloud-sdk in your working environment.
-Run 'gcloud init' command to config your google account for gcp project.
+
+Run 'gcloud init' command to set up your google account for the project.
 
 ### Cleaning up App Engine versions
 
